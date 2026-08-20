@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@alexbosworth/node-fetch": "2.6.2",
-    "@grpc/grpc-js": "1.14.3",
+    "@grpc/grpc-js": ">=1.14.4",
     "@grpc/proto-loader": "0.8.0",
     "auth-header": "1.0.0",
     "async": "3.2.6",
@@ -57,5 +57,11 @@
     "integration-tests": "node test/integration",
     "test": "npx nyc@17.1.0 node --experimental-test-coverage --test test/blockstream/*.js test/chain/*.js test/funding/*.js test/grpc/*.js test/lightninglabs/*.js test/script/*.js test/service/*.js test/transactions/*.js"
   },
-  "version": "15.0.0-lineaje-01"
+  "version": "15.0.0-lineaje-01",
+  "overrides": {
+    "@grpc/grpc-js": ">=1.14.4"
+  },
+  "resolutions": {
+    "@grpc/grpc-js": ">=1.14.4"
+  }
 }
