@@ -41,15 +41,21 @@
     "node": ">=20"
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "index.js",
   "name": "goldengate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexbosworth/goldengate.git"
+    "url": "https://github.com/lineaje-labs-gos/alexbosworth-goldengate"
   },
   "scripts": {
     "integration-tests": "node test/integration",
     "test": "npx nyc@17.1.0 node --experimental-test-coverage --test test/blockstream/*.js test/chain/*.js test/funding/*.js test/grpc/*.js test/lightninglabs/*.js test/script/*.js test/service/*.js test/transactions/*.js"
   },
-  "version": "15.0.0"
+  "version": "15.0.0-lineaje-01"
 }
