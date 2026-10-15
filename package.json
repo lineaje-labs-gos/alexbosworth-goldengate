@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@alexbosworth/node-fetch": "2.6.2",
-    "@grpc/grpc-js": ">=1.14.4",
+    "@grpc/grpc-js": ">=1.14.6",
     "@grpc/proto-loader": "0.8.0",
     "auth-header": "1.0.0",
     "async": "3.2.6",
@@ -59,17 +59,19 @@
   },
   "version": "15.0.0-lineaje-02",
   "overrides": {
-    "@grpc/grpc-js": ">=1.14.4",
+    "@grpc/grpc-js": ">=1.14.6",
     "form-data": ">=2.5.6",
     "path-to-regexp": ">=0.1.13",
     "sjcl": ">=1.0.9",
-    "protobufjs": ">=7.6.5"
+    "protobufjs": ">=7.6.5",
+    "proxy-addr": ">=2.0.8"
   },
   "resolutions": {
-    "@grpc/grpc-js": ">=1.14.4",
+    "@grpc/grpc-js": ">=1.14.6",
     "form-data": ">=2.5.6",
     "path-to-regexp": ">=0.1.13",
     "sjcl": ">=1.0.9",
-    "protobufjs": ">=7.6.5"
+    "protobufjs": ">=7.6.5",
+    "proxy-addr": ">=2.0.8"
   }
 }
